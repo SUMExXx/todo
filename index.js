@@ -22,6 +22,10 @@ app.post("/todos", async (req, res) =>{
     }
 })
 
+app.get("/hello", async (req, res) =>{
+    res.json("Hello")
+})
+
 
 app.get("/todos", async (req, res)=>{
     try{
